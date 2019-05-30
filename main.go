@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	apiKey = "AIzaSyDQheLAs6b_tyO8eucAW8lAQt8yY96eXKU"
+	apiKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	cx     = "015184425675892934810:2ccrmmdtlku"
 )
 
