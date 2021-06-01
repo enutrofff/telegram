@@ -18,6 +18,14 @@ jobs:
       with:
         go-version: 1.15
 
+    - name: Install dependencies
+      run: |
+        go version
+        go get -u golang.org/x/lint/golint
+        go get -u github.com/go-telegram-bot-api/telegram-bot-api
+        go get -u google.golang.org/api/customsearch/v1
+        go get -u google.golang.org/api/googleapi/transport
+
     - name: Build
       run: go build -v ./...
 
